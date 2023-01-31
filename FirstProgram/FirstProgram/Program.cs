@@ -14,8 +14,10 @@ namespace FirstProgram
             //Calc();
             //FirstTask();
             //SecondTask();
-            ThirdTask();
-            //hello
+            //ThirdTask();
+            //FourthTask();
+            //FifthTask();
+            SixTask();
         }
 
         static void FirstTask()
@@ -66,15 +68,116 @@ namespace FirstProgram
 
         }
 
-
         static void ThirdTask()
         {
+            int value;
+            Console.WriteLine("Enter 6 digit value : ");
+            value = Convert.ToInt32(Console.ReadLine());
+            if(value > 99999 && value < 100000)
+            {
+                Console.WriteLine("Is not 6 digit value");
+            }
+            else
+            {
+                string temp = Convert.ToString(value);
+                string temp2 = "";
+                for (int i = temp.Length - 1; i >= 0; i--)
+                {
+                    temp2 += temp[i];
+                }
 
+                Console.WriteLine(temp2 + "\n\n");
+            }
         }
 
-        
+        static void FourthTask()
+        {
+            int firstV = 0;
+            int secondV = 1;
+            int currentV = 0;
+            int firstR, secondR;
+            Console.Write("Enter first range : ");
+            firstR = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter second range : ");
+            secondR = Convert.ToInt32(Console.ReadLine());
+            if(firstR == 0)
+            {
+                Console.Write(firstV + " ");
+            }
+            if (firstR <= 1)
+            {
+                Console.Write(secondV + " ");
+            }
+            while(currentV <= secondR)
+            {
+                currentV = firstV + secondV;
+                if(currentV >= firstR && currentV <= secondR)
+                {
+                    Console.Write(currentV + " ");
+                }
+                firstV = secondV;
+                secondV = currentV;
+            }
+            Console.Write("\n\n");
+        }
 
-        
+        static void FifthTask()
+        {
+            int firstR, secondR;
+            Console.Write("Enter first range : ");
+            firstR = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter second range : ");
+            secondR = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("\n");
+
+            for (int i = firstR; i <= secondR; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    Console.Write(i);
+                }
+                Console.Write("\n");
+            }
+            Console.Write("\n\n");
+        }
+
+        static void SixTask()
+        {
+            int lineLength;
+            char symbol;
+            bool pos;
+
+            Console.Write("Enter line length : ");
+            lineLength = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter symbol : ");
+            symbol = Convert.ToChar(Console.ReadLine());
+
+            Console.Write("Enter pos (false - vertical, true - horizontal) : ");
+            pos = Convert.ToBoolean(Console.ReadLine());
+
+            Console.Write("\n");
+
+            if (pos)
+            {
+                for (int i = 0; i < lineLength; i++)
+                {
+                    Console.Write(symbol);
+                }
+                Console.Write("\n");
+            }
+            else
+            {
+                for (int i = 0; i < lineLength; i++)
+                {
+                    Console.Write(symbol);
+                    Console.Write("\n");
+                }
+            }
+            Console.Write("\n");
+
+        }
 
         static void Calc()
         {
