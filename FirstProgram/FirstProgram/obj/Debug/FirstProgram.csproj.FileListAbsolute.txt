@@ -1,0 +1,8 @@
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe.config
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\bin\Debug\FirstProgram.exe
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\bin\Debug\FirstProgram.pdb
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.AssemblyReference.cache
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.SuggestedBindingRedirects.cache
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\obj\Debug\FirstProgram.csproj.CoreCompileInputs.cache
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\obj\Debug\FirstProgram.exe
+C:\Step\2year\.NET CSharp\FirstProgram\FirstProgram\obj\Debug\FirstProgram.pdb
