@@ -11,16 +11,16 @@ namespace cw_01._02._2023
     {
         static void Main(string[] args)
         {
-            InitWithRand();
-            FirstTask();
-            SecondTask();
-            ThirdTask();
+            //InitWithRand();
+            //FirstTask();
+            //SecondTask();
+            //ThirdTask();
             FourthTask();
-            FifthTask();
-            SixthTask();
-            SeventhTask();
-            EighthTask();
-            NinthTask();
+            //FifthTask();
+            //SixthTask();
+            //SeventhTask();
+            //EighthTask();
+            //NinthTask();
         }
 
         static void InitWithRand()
