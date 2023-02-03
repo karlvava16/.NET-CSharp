@@ -1,0 +1,8 @@
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\bin\Debug\hw_03.02.2022.exe.config
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\bin\Debug\hw_03.02.2022.exe
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\bin\Debug\hw_03.02.2022.pdb
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\obj\Debug\hw_03.02.2022.csproj.AssemblyReference.cache
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\obj\Debug\hw_03.02.2022.csproj.SuggestedBindingRedirects.cache
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\obj\Debug\hw_03.02.2022.csproj.CoreCompileInputs.cache
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\obj\Debug\hw_03.02.2022.exe
+C:\Step\2year\.NET CSharp\hw_03.02.2022\hw_03.02.2022\obj\Debug\hw_03.02.2022.pdb
