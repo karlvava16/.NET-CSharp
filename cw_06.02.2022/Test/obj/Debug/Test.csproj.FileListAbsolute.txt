@@ -1,0 +1,12 @@
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\bin\Debug\Test.exe.config
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\bin\Debug\Test.exe
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\bin\Debug\Test.pdb
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\bin\Debug\cw_06.02.2022.exe
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\bin\Debug\cw_06.02.2022.pdb
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\bin\Debug\cw_06.02.2022.exe.config
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\obj\Debug\Test.csproj.SuggestedBindingRedirects.cache
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\obj\Debug\Test.exe
+C:\Step\2year\.NET CSharp\cw_06.02.2022\Test\obj\Debug\Test.pdb
