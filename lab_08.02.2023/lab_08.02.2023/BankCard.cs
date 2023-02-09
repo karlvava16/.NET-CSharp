@@ -22,24 +22,17 @@ namespace Bank
             set
             {
                 string temp = value.ToString().Replace(" ", "");
-                try
+                if (temp.Length != 16)
                 {
-                    if (temp.Length != 16)
-                    {
-                        throw new Exception("Unaccessable card number length");
-                    }
-
-                    foreach (var el in temp)
-                    {
-                        if (!(el >= '0' && el <= '9'))
-                        {
-                            throw new Exception("Unaccessable symbol in card number");
-                        }
-                    }
+                    throw new Exception("Unaccessable card number length");
                 }
-                catch (Exception ex)
+
+                foreach (var el in temp)
                 {
-                    Console.WriteLine(ex.Message);
+                    if (!(el >= '0' && el <= '9'))
+                    {
+                        throw new Exception("Unaccessable symbol in card number");
+                    }
                 }
                 cardNumber = temp;
             }

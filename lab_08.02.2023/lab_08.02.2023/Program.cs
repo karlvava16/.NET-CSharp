@@ -12,8 +12,8 @@ namespace Lab
     {
         static void Main(string[] args)
         {
-            BankCard card = new BankCard("MonoBank", "1234 5678 9111 1121", "512", "10/25");
-            card.CardCVV = "BB1";
+            BankCard card = new BankCard("MonoBank", "123A 5678 9111 1121", "212", "10/25");
+           // card.CardCVV = "BB1";
             Console.WriteLine(card);
         }
     }
