@@ -48,9 +48,10 @@ namespace Test
         {
             Matrix matrix = new Matrix(4,4);
             matrix.RandMatrix(-20, 20);
+            Matrix matrix2 = new Matrix(4, 4);
+            matrix2.RandMatrix(-20, 20);
             Console.WriteLine(matrix);
-            Console.WriteLine(matrix.Max);
-            Console.WriteLine(matrix.Min);
+            Console.WriteLine(matrix2);
 
         }
     }
