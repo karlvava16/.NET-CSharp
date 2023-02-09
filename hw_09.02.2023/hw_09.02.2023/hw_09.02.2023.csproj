@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C0757C78-3D7C-4373-8130-34B75C3EEE17}</ProjectGuid>
+    <ProjectGuid>{11E39BEA-A22F-45AF-924C-D44AB3A1F363}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>lab_09._02._2023</RootNamespace>
-    <AssemblyName>lab_09.02.2023</AssemblyName>
+    <RootNamespace>hw_09._02._2023</RootNamespace>
+    <AssemblyName>hw_09.02.2023</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BankCard.cs" />
-    <Compile Include="City.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Matrix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
