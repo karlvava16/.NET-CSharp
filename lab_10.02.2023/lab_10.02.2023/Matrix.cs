@@ -181,7 +181,14 @@ namespace MyProject
 
         public int this[int i, int j]
         {
-            get { return matrixArray[i, j]; }
+            get
+            {
+                if (!(i >= 0 && i <= matrixArray.GetLength(0) - 1))
+                    throw new Exception("Index i out of range");
+                if (!(j >= 0 && j <= matrixArray.GetLength(1) - 1))
+                    throw new Exception("Index j out of range");
+                return matrixArray[i, j];
+            }
             set
             {
                 if (!(i >= 0 && i <= matrixArray.GetLength(0) - 1))
