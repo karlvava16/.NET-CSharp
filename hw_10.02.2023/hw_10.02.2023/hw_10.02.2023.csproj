@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11E39BEA-A22F-45AF-924C-D44AB3A1F363}</ProjectGuid>
+    <ProjectGuid>{4FCCD215-3BE8-4B32-91F1-122A3E896D10}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hw_09._02._2023</RootNamespace>
-    <AssemblyName>hw_09.02.2023</AssemblyName>
+    <RootNamespace>hw_10._02._2023</RootNamespace>
+    <AssemblyName>hw_10.02.2023</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Magazine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Store.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
