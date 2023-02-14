@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,7 +9,7 @@ using Interfaces;
 
 namespace Classwork
 {
-    class MyArray : IOutput, IMath, ISort
+    class MyArray : IOutput, IMath, ISort, ICalc, IOutput2, ICalc2
     {
         int[] array;
 
@@ -129,6 +130,77 @@ namespace Classwork
             else
                 SortDesc();
 
+        }
+
+        public int Less(int valueToCompare)
+        {
+            int temp = 0;
+            foreach (var item in array)
+            {
+                if (item < valueToCompare)
+                    temp++;
+            }
+            return temp;
+        }
+
+        public int Greater(int valueToCompare)
+        {
+            int temp = 0;
+            foreach (var item in array)
+            {
+                if (item > valueToCompare)
+                    temp++;
+            }
+            return temp;
+        }
+
+        public void ShowEven()
+        {
+            foreach (int i in array)
+            {
+                if(i % 2 == 0)
+                Console.Write(i + " ");
+            }
+        }
+
+        public void ShowOdd()
+        {
+            foreach (int i in array)
+            {
+                if (i % 2 != 0)
+                    Console.Write(i + " ");
+            }
+        }
+
+        public int CountDistinct()
+        {
+            int temp = 0;
+            for (int i = 0; i < array.Length; i++)
+            {
+                temp++;
+                for (int j = 0; j < array.Length; j++)
+                {
+                    if (array[i] == array[j] && i != j)
+                    {
+                        temp--;
+                        break;
+                    }
+                }
+            }
+            return temp;
+        }
+
+        public int EqualToValue(int valueToCompare)
+        {
+            int temp = 0;
+            foreach (var item in array)
+            {
+                if (item == valueToCompare)
+                {
+                    temp++;
+                }
+            }
+            return temp;
         }
     }
 }

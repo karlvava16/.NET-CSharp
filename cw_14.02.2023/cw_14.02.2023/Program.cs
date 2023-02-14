@@ -34,6 +34,7 @@ namespace Classwork
             array.Show();
             Console.WriteLine();
 
+            Console.WriteLine(array.CountDistinct());
 
         }
     }

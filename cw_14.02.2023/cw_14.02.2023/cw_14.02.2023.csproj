@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Human.cs" />
+    <Compile Include="ICalc.cs" />
+    <Compile Include="ICalc2.cs" />
     <Compile Include="IMath.cs" />
     <Compile Include="IMove.cs" />
     <Compile Include="IOutput.cs" />
+    <Compile Include="IOutput2.cs" />
     <Compile Include="ISort.cs" />
     <Compile Include="MyArray.cs" />
     <Compile Include="Program.cs" />
