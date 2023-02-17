@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{467D2FBF-AF59-43E5-9C2D-AB91BFAC2EC2}</ProjectGuid>
+    <ProjectGuid>{9860A2D2-459F-4E27-BC48-E38DF48223B9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hw_16._02._2023</RootNamespace>
-    <AssemblyName>hw_16.02.2023</AssemblyName>
+    <RootNamespace>lab_17._02._2023</RootNamespace>
+    <AssemblyName>lab_17.02.2023</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DecimalNumber.cs" />
-    <Compile Include="MyVector.cs" />
+    <Compile Include="Calc.cs" />
+    <Compile Include="FirstTask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RGB.cs" />
+    <Compile Include="Task3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
