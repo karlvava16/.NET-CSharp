@@ -12,7 +12,7 @@ namespace Homework
         public string Author { get; set; }
         public DateTime DateCreation { get; set; }
         public string VerseText { get; set; }
-        public string VesseTheme { get; set; }
+        public string VerseTheme { get; set; }
         
         public Poem() { }
         public Poem(string name, string author, DateTime dateCreation, string verseText, string vesseTheme)
@@ -21,7 +21,7 @@ namespace Homework
             Author = author;
             DateCreation = dateCreation;
             VerseText = verseText;
-            VesseTheme = vesseTheme;
+            VerseTheme = vesseTheme;
         }
     }
 }
