@@ -23,7 +23,7 @@ namespace Homework
             poems[poems.Count - 1].DateCreation = DateTime.ParseExact(Console.ReadLine(), "dd.MM.yyyy",
                                 System.Globalization.CultureInfo.InvariantCulture);
             Console.Write("Enter verse theme: ");
-            poems[poems.Count - 1].VerseTheme= Console.ReadLine();
+            poems[poems.Count - 1].VerseTheme = Console.ReadLine();
             Console.WriteLine("Enter verse text: ");
             poems[poems.Count - 1].VerseText = Console.ReadLine();
             Console.WriteLine("\n[ADDED NEW POEM]");
@@ -33,24 +33,125 @@ namespace Homework
         public void RemovePoem()
         {
             Console.Clear();
+            Console.Write("Enter name/author: ");
+            string input = Console.ReadLine();
 
+            List<int> indexs = new List<int>();
+            int enter = 0;
+
+            for (int i = 0; i < poems.Count; i++)
+            {
+                if (string.Equals(input, poems[i].Name, StringComparison.OrdinalIgnoreCase) || string.Equals(input, poems[i].Author, StringComparison.OrdinalIgnoreCase))
+                {
+                    indexs.Add(i);
+                    Console.WriteLine($"{indexs.Count})");
+                    Console.WriteLine(poems[i]);
+                }
+            }
+
+            if (indexs.Count != 0)
+            {
+                while (true)
+                {
+                    Console.Write("Enter poem number to delete : ");
+                    enter = Convert.ToInt32(Console.ReadLine());
+                    if (enter > 0 && enter <= indexs.Count)
+                    {
+                        Console.WriteLine("|Delete poem|");
+                        Console.WriteLine(poems[indexs[enter - 1]]);
+                        poems.RemoveAt(indexs[enter - 1]);
+                        break;
+                    }
+                    else if (enter == 0)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrect index");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("There is no such poem");
+            }
+            Console.ReadKey();
         }
 
         public void ChangePoem()
         {
             Console.Clear();
+            Console.Write("Enter name/author: ");
+            string input = Console.ReadLine();
 
+            List<int> indexs = new List<int>();
+            int enter = 0;
+
+            for (int i = 0; i < poems.Count; i++)
+            {
+                if (string.Equals(input, poems[i].Name, StringComparison.OrdinalIgnoreCase) || string.Equals(input, poems[i].Author, StringComparison.OrdinalIgnoreCase))
+                {
+                    indexs.Add(i);
+                    Console.WriteLine($"{indexs.Count})");
+                    Console.WriteLine(poems[i]);
+                }
+            }
+
+            if (indexs.Count != 0)
+            {
+                while (true)
+                {
+                    Console.Write("Enter poem number to change : ");
+                    enter = Convert.ToInt32(Console.ReadLine());
+                    if (enter > 0 && enter <= indexs.Count)
+                    {
+                        Console.WriteLine(poems[indexs[enter - 1]]);
+                        break;
+                    }
+                    else if (enter == 0)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Incorrect index");
+                    }
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("There is no such poem");
+            }
+            Console.ReadKey();
         }
-
         public void FindPoem()
         {
             Console.Clear();
+            Console.Write("Enter name/author: ");
+            string input = Console.ReadLine();
 
+            int index = 1;
+
+            for (int i = 0; i < poems.Count; i++)
+            {
+                if (string.Equals(input, poems[i].Name, StringComparison.OrdinalIgnoreCase) || string.Equals(input, poems[i].Author, StringComparison.OrdinalIgnoreCase))
+                {
+                    Console.WriteLine($"{index})");
+                    Console.WriteLine(poems[i]);
+                    index++;
+                }
+            }
         }
 
         public void SavePoems()
         {
             Console.Clear();
+            Console.WriteLine("Enter file name to save: ");
+            string fileName = Console.ReadLine();
+
+
 
         }
 
@@ -99,4 +200,7 @@ namespace Homework
             }
         }
     }
+}
+
+       
 }
