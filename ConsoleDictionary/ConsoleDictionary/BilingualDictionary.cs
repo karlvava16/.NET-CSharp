@@ -1,8 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Xml.Serialization;
+using System.Text;
 
 namespace ConsoleDictionary
 {
@@ -28,11 +27,17 @@ namespace ConsoleDictionary
             return Dict.Count;
         }
 
+        public string[] this[string value]
+        {
+           get { return Dict[value].ToArray(); }
+        }
+
+
         // конструктор по умолчанию
         public BilingualDictionary(string dictTpye)
         {
             dict = new SortedDictionary<string, List<string>>();
-            this.dictType = dictTpye;
+            dictType = dictTpye;
         }
 
         // добавление слов (анг, русс)
@@ -120,6 +125,23 @@ namespace ConsoleDictionary
                 }
             }
             return length != words.Length;
+        }
+
+        // слово
+        public string Word(string word)
+        {
+            if (Dict.ContainsKey(word))
+            {
+                StringBuilder temp = new StringBuilder();
+                temp.Append(word + " —");
+                foreach (var item in Dict[word])
+                {
+                    temp.Append(" " + item + ",");
+                }
+                temp[temp.Length - 1] = '.';
+                return temp.ToString();
+            }
+            return null;
         }
     }
 }

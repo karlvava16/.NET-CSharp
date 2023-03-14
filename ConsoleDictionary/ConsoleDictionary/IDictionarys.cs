@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleDictionary
+﻿namespace ConsoleDictionary
 {
     public interface IDictionaries  // требования к словарю
     {
@@ -14,5 +8,6 @@ namespace ConsoleDictionary
         bool RemoveWord(params string[] word);                              // удалить слово
         bool RemoveTranslation(string word, params string[] translation);   // удалить перевод
         string[] GetTranslation(string word);                               // получить перевод слов
+        string Word(string word);                                           // слово
     }
 }
