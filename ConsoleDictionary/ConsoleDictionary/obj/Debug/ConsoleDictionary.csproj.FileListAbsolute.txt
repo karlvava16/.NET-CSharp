@@ -1,0 +1,8 @@
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\bin\Debug\ConsoleDictionary.exe.config
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\bin\Debug\ConsoleDictionary.exe
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\bin\Debug\ConsoleDictionary.pdb
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\obj\Debug\ConsoleDictionary.csproj.AssemblyReference.cache
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\obj\Debug\ConsoleDictionary.csproj.SuggestedBindingRedirects.cache
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\obj\Debug\ConsoleDictionary.csproj.CoreCompileInputs.cache
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\obj\Debug\ConsoleDictionary.exe
+C:\Step\2year\.NET CSharp\ConsoleDictionary\ConsoleDictionary\obj\Debug\ConsoleDictionary.pdb
